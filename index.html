@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>HomeSpan - Interior Designing</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link href="img/HomeSpanLogo.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid bg-white p-0">
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border" style="width: 3rem; height: 3rem; color: #B17A50;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light shadow sticky-top p-0">
+            <a href="index.html" class="navbar-brand d-flex align-items-center text-center py-0 px-4 px-lg-5">
+                <img class="navImg" src="img/HomeSpanLogo.png" alt="">
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="residential.html" class="dropdown-item">Residential</a>
+                            <a href="#" class="dropdown-item">Commercial</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Cities</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a href="#" class="dropdown-item">Ranchi</a>
+                            <a href="#" class="dropdown-item">Kolkata</a>
+                            <a href="#" class="dropdown-item">Dhanbad</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="#navHomeForm" class="btn btn-outline-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Book
+                    Consultation<i class="fa fa-arrow-right ms-3"></i></a>
+            </div>
+        </nav>
+
+        <div class="header_poster container-fluid p-0">
+            <div class="owl-carousel header-carousel position-relative">
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="Logo">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-6 text-white animated wow slideInRight mb-4">Embrace the Elegance
+                                        of India: Where Tradition and Modernity Intersect in Design.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-6 text-white animated wow slideInDown mb-4">Elevate Your Home
+                                        with Our Signature Interior Designs - Where Comfort Meets Style!</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel-item position-relative">
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+                        style="background: rgba(43, 57, 64, .5);">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1 class="display-6 text-white animated wow slideInDown mb-4">Designing Tomorrow's
+                                        Memories: Your Journey to Stunning Interiors Begins Here.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-border" style="margin-top: -77px;"></div>
+
+        <div class="container-xxl py-5">
+            <div class="container-fluid mx-2">
+                <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.25s">Why HomeSpan?</h1>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.25s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-mail-bulk mb-4"></i>
+                            <h6 class="mb-3">10 Years Warranty</h6>
+                            <p class="mb-0">Commitment to Quality and Satisfaction.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-headset mb-4"></i>
+                            <h6 class="mb-3">24/7 Support</h6>
+                            <p class="mb-0">Ensuring your Peace of Mind at Any Hour.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-user-tie mb-4"></i>
+                            <h6 class="mb-3">Well Experienced</h6>
+                            <p class="mb-0">Elevating Spaces with 19 Years of Professional Design Expertise.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-tasks mb-4"></i>
+                            <h6 class="mb-3">108 Quality Checks</h6>
+                            <p class="mb-0">Guaranteeing Flawlessness of your Project in our Quality Checks.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.25s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-chart-line mb-4"></i>
+                            <h6 class="mb-3">No hidden costs</h6>
+                            <p class="mb-0">Transparency is our Promise, Commitment within your Budget.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-hands-helping mb-4"></i>
+                            <h6 class="mb-3">Trusted Services</h6>
+                            <p class="mb-0">Rely on our trusted services to transform your vision into reality.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-book-reader mb-4"></i>
+                            <h6 class="mb-3">Magazines</h6>
+                            <p class="mb-0">Stay inspired with our curated selection of magazines.</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <a class="cat-item rounded p-4" href="">
+                            <i class="fa fa-3x fa-drafting-compass mb-4"></i>
+                            <h6 class="mb-3">1000+ Designs</h6>
+                            <p class="mb-0">Discover limitless possibilities with our 300+ designs.</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-img">
+                            <img class="img-fluid" src="img/about-4.jpg" alt="">
+                            <img class="img-fluid" src="img/about-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="display-5 mb-4">We Help To Get The Designs Of Your <span style="color: #702963;">Dreams</span></h1>
+                        <p class="mb-4">Welcome to HomeSpan, where creativity meets functionality in the world of
+                            interior design. Our passion lies in crafting captivating spaces that resonate with your
+                            lifestyle and aspirations. Explore our portfolio and let's embark on a journey to transform
+                            your space into an extraordinary heaven.</p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0" src="img/icons/icon-2.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Design Approach</h3>
+                                        <p class="mb-0">Our design approach involves a collaborative and empathetic
+                                            process that integrates cutting-edge technology to craft innovative and
+                                            user-friendly solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0" src="img/icons/icon-3.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Innovative Solutions</h3>
+                                        <p class="mb-0">We develop innovative solutions by leveraging emerging
+                                            technologies and novel approaches to address complex challenges with
+                                            creativity and efficiency.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <img class="flex-shrink-0" src="img/icons/icon-4.png" alt="Icon">
+                                    <div class="ms-4">
+                                        <h3>Project Management</h3>
+                                        <p class="mb-0">Efficient project management of interior designing involves
+                                            meticulous planning, timely resource allocation, and seamless coordination
+                                            to bring aesthetic visions to life within stipulated budgets and deadlines.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div id="navHomeForm"></div>
+        </div>
+
+        <div class="homeFormContainer wow fadeInUp" data-wow-delay="0.25s">
+            <form action="/action_page.php">
+                <div class="row g-3 homeForm mt-5 pb-5 wow fadeInUp" data-wow-delay="0.25s">
+                    <h2>Book Free Consultation:</h2>
+                    <p>I understand you're looking to book a free consultation for interior designing. Submit the form
+                        to
+                        get details:</p>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                            <label for="name">Your Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            <label for="email">Mobile Number</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <select class="form-control form-dropdown" id="cars" name="cars">
+                                <option value="volvo">False Ceiling</option>
+                                <option value="saab">Modular Kitchen</option>
+                                <option value="fiat">Wardrobe</option>
+                                <option value="audi">Bedroom</option>
+                                <option value="audi">Living Room</option>
+                                <option value="audi">Bathroom</option>
+                                <option value="audi">Space Saving Furniture</option>
+                                <option value="audi">Home Office</option>
+                                <option value="audi">Commercial Office</option>
+                                <option value="audi">2BHK</option>
+                                <option value="audi">3BHK</option>
+                                <option value="audi">4BHK</option>
+                            </select>
+                            <label for="subject">Your Requirement</label>
+                            <i class="fa-duotone fa-list-dropdown"></i>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                style="height: 150px"></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary w-100 py-3" type="submit" value="Submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="container-fluid endToEndContainer mt-5">
+            <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.25s">End-to-end Interior Services</h1>
+            <div class="solutionIcons">
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/KitchenIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Modular Kitchen</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/bedroomIconBlack.png" alt="Icon">
+                        <h6 class="mb-3">Bedroom</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/bathroomIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Bathroom</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/LivingRoomIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Living-Room</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/DinningroomIconBlack.png" alt="Icon">
+                        <h6 class="mb-3">Dining-Room</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.25s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/FoyerareaIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Foyer Area</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/wardrobeIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Wardrobe</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.25s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/TVunitIconblack.png" alt="Icon">
+                        <h6 class="mb-3">TV Unit</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/PaintingIconBlack.png" alt="Icon">
+                        <h6 class="mb-3">Painting</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/FalseceilingIconblack.png" alt="Icon">
+                        <h6 class="mb-3">False Ceiling</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/LightingIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Lighting</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/PlumbingIconBlack.png" alt="Icon">
+                        <h6 class="mb-3">Plumbing</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/Tilingblack.png" alt="Icon">
+                        <h6 class="mb-3">Tiling</h6>
+                    </a>
+                </div>
+                <div class="whyHomeSpanIconBox wow fadeInUp" data-wow-delay="0.7s">
+                    <a class="service rounded p-4" href="">
+                        <img class="flex-shrink-0" src="img/customDesignIconblack.png" alt="Icon">
+                        <h6 class="mb-3">Custom interior</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="endToEnd-border mt-5"></div>
+
+        <div class="mt-5">
+            <h1 class="text-center mb-5 wow fadeInUp">Transforming Your Space in 4 Simple Steps</h1>
+            <div class="esyStepsContainer d-flex wow fadeInUp" data-wow-delay="0.25s">
+                <div class="job-item esyStepsBox wow fadeInLeft">
+                    <div class="esyStepsImg">
+                        <img src="img/step1.jpg">
+                    </div>
+                    <div class="esyStepInfo">
+                        <div class="easyStepHead">
+                            <div class="easyStepNo">
+                                <h3>01.</h3>
+                            </div>
+                            <div class="easyStepHeading">
+                                <h5>Acknowledging recipient requirements:</h5>
+                            </div>
+                        </div>
+                        <p style="margin-bottom: 0;">Begin with an in-depth conversation to understand the client's
+                            goals, preferences, and requirements for the space. Determine the purpose of the room, their
+                            lifestyle, and any specific design elements they want to incorporate.</p>
+                    </div>
+                </div>
+                <div class="job-item esyStepsBox wow fadeInRight">
+                    <div class="esyStepsImg">
+                        <img src="img/step2.jpg">
+                    </div>
+                    <div class="esyStepInfo">
+                        <div class="easyStepHead">
+                            <div class="easyStepNo">
+                                <h3>02.</h3>
+                            </div>
+                            <div class="easyStepHeading">
+                                <h5>Conceptualization and Design Proposal:</h5>
+                            </div>
+                        </div>
+                        <p>Based on the client's input, create a preliminary design proposal. Present mood boards,
+                            sketches, and initial design concepts that capture the envisioned transformation. Ensuring
+                            client's preferences and the functionality of the space.</p>
+                    </div>
+                </div>
+                <div class="job-item esyStepsBox wow fadeInLeft">
+                    <div class="esyStepsImg">
+                        <img src="img/step3.jpg" s>
+                    </div>
+                    <div class="esyStepInfo">
+                        <div class="easyStepHead">
+                            <div class="easyStepNo">
+                                <h3>03.</h3>
+                            </div>
+                            <div class="easyStepHeading">
+                                <h5>Detailed and cost-effective planning:</h5>
+                            </div>
+                        </div>
+                        <p>Cost optimization and planning in interior designing involve strategically allocating
+                            resources and creating detailed project blueprints to ensure the efficient and
+                            budget-conscious realization of design visions while maintaining high-quality outcomes.</p>
+                    </div>
+                </div>
+                <div class="job-item esyStepsBox wow fadeInRight">
+                    <div class="esyStepsImg">
+                        <img src="img/step4.jpg">
+                    </div>
+                    <div class="esyStepInfo">
+                        <div class="easyStepHead">
+                            <div class="easyStepNo">
+                                <h3>04.</h3>
+                            </div>
+                            <div class="easyStepHeading">
+                                <h5>Quality Assurance and Project Handover:</h5>
+                            </div>
+                        </div>
+                        <p>Pay attention to details that elevate the space's aesthetics and functionality. Add finishing
+                            touches such as decor, lighting, and textiles. Conduct a final walkthrough to ensure the
+                            design aligns with the vision, then deliver the transformed space.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-xxxl py-5">
+        <div class="container">
+            <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.25s">Design Pricing/Gallary</h1>
+            <div class="wow fadeInUp pricing-banner-container">
+                <div class="pricing-banner wow fadeInLeft" data-wow-delay="0.25s">
+                    <img class="img-fluid roundImg" src="img/Gall1.jpg" alt="" style="width: 400px; height: 470px;">
+                    <span class="text-truncate me-3 z-index-10 priceTagUp wow fadeInLeft"
+                        data-wow-delay="0.25s">2-BHK</span>
+                    <span class="text-truncate me-0 priceTagDown"><i class="far fa-money-bill-alt me-2"></i>Starting
+                        Price ₹6L+</span>
+                </div>
+                <div class="pricing-banner wow fadeInUp" data-wow-delay="0.25s">
+                    <img class="img-fluid roundImg wow fadeInUp" data-wow-delay="0.25s" src="img/Gall2.jpg" alt=""
+                        style="width: 400px; height: 470px;">
+                    <span class="text-truncate me-3 z-index-10 priceTagUp">3-BHK</span>
+                    <span class="text-truncate me-0 priceTagDown"><i class="far fa-money-bill-alt me-2"></i>Starting
+                        Price ₹8.5L+</span>
+                </div>
+                <div class="pricing-banner wow fadeInRight" data-wow-delay="0.25s">
+                    <img class="img-fluid roundImg" src="img/Gall3.jpg" alt="" style="width: 400px; height: 470px;">
+                    <span class="text-truncate me-3 z-index-10 priceTagUp">4-BHK</span>
+                    <span class="text-truncate me-0 priceTagDown"><i class="far fa-money-bill-alt me-2"></i>Starting
+                        Price ₹12L+</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: rgb(223, 223, 223);">
+        <div class="container">
+            <div class="row wow fadeIn" data-wow-delay="0.3s">
+                <div class="col-md-7 py-5 pr-md-5">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3 pt-5 fadeInLeft wow"
+                        data-wow-delay="0.3s">Testimonial</h6>
+                    <h1 class="mb-4 section-title fadeInLeft wow" data-wow-delay="0.3s">What Our Clients Say</h1>
+                    <div class="owl-carousel testimonial-carousel position-relative pb-5 mb-md-5 fadeInUp wow"
+                        data-wow-delay="0.3s">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h5>Mr. Rahul</h5>
+                                    <i>Businessman</i>
+                                </div>
+                            </div>
+                            <p><span style="font-weight:900; font-size: 22px;">Transformed My Space!"</span>🌟⭐⭐⭐⭐⭐ <br>
+                                I had the pleasure of working with your team to redesign my living room, and the results
+                                were beyond my expectations. The way you incorporated my vision into a stunning reality
+                                is commendable. Every detail was carefully considered, and the final outcome speaks
+                                volumes about your creativity and expertise. Thank you for turning my house into a home!
+                            </p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h5>Mr. Harish</h5>
+                                    <i>Doctor</i>
+                                </div>
+                            </div>
+                            <p><span style="font-weight:900; font-size: 22px;">Effortless Process, Outstanding
+                                    Results"</span>✨⭐⭐⭐⭐⭐ <br>
+                                Working with you was an absolute delight. Your ability to grasp my preferences and
+                                translate them into a design that resonated with me was impressive. The entire process
+                                was smooth, and your attention to detail is truly commendable. The end result is a space
+                                that reflects my personality perfectly. Thank you for making the entire experience so
+                                enjoyable!</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h5>Mr. Wahid</h5>
+                                    <i>IT agency</i>
+                                </div>
+                            </div>
+                            <p><span style="font-weight:900; font-size: 22px;">Aesthetic Mastery"</span>🎨⭐⭐⭐⭐⭐ <br>
+                                Your designs have an incredible aesthetic appeal that's hard to put into words. The way
+                                you curated each element in my room shows your deep understanding of design principles.
+                                The balance between comfort and style is truly remarkable. It's evident that you're not
+                                just designing spaces; you're crafting experiences. Kudos to your team!</p>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <div class="d-flex align-items-center mb-3">
+                                <img class="img-fluid rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;" alt="">
+                                <div class="ml-3">
+                                    <h5>Mr. Imran</h5>
+                                    <i>IT consultancy</i>
+                                </div>
+                            </div>
+                            <p><span style="font-weight:900; font-size: 22px;">Spectacular Vision Brought to
+                                    Life"</span> 🌈⭐⭐⭐⭐⭐ <br>
+                                I had a vague idea of how I wanted my bedroom to look, but your team turned that vague
+                                idea into a spectacular reality. The way you played with colors and patterns has given
+                                my room a unique charm that I couldn't have imagined. You've truly brought my vision to
+                                life, and I'm incredibly grateful for your expertise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="d-flex flex-column align-items-center justify-content-center h-100 overflow-hidden">
+                        <img class="h-100 fadeInDown wow" data-wow-delay="0.3s" src="img/testimonial.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light pt-5 fadeInUp wow" data-wow-delay="0.3s">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8 col text-center mb-4">
+                    <h6 class="text-primary font-weight-normal text-uppercase mb-3 fadeInLeft wow"
+                        data-wow-delay="0.3s">Our Blog</h6>
+                    <h1 class="mb-4 fadeInRight wow" data-wow-delay="0.3s">Read The Latest News & Articles From Our Blog
+                    </h1>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-md-4 mb-4">
+                    <div class="card border-2 mb-2 fadeInUp wow" style="border-color: #702963;" data-wow-delay="0.3s">
+                        <img class="card-img-top" src="img/blog-1.jpg" alt="">
+                        <div class="card-body bg-white p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <h5 class="m-0 ml-3 text-truncate">Emerging Trends in Interior Design:</h5>
+                            </div>
+                            <p><mark style="color: white;">What to Expect in 2023</mark></p>
+                            <p>Discover the hottest design trends that are shaping interiors this year, from color
+                                palettes to materials and furniture choices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-2 mb-2 fadeInUp wow" style="border-color: #702963; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;" data-wow-delay="0.5s">
+                        <img class="card-img-top" src="img/blog-2.jpg" alt="">
+                        <div class="card-body bg-white p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <h5 class="m-0 ml-3 text-truncate">The Art of Mixing Patterns:</h5>
+                            </div>
+                            <p><mark style="color: white;">A Guide to Pattern Play in Interiors</mark></p>
+                            <p>
+                                Learn the art of combining various patterns in interior design to create visually
+                                captivating and harmonious spaces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card border-0 mb-2 fadeInUp wow" style="border-color: #702963; box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;" data-wow-delay="0.7s">
+                        <img class="card-img-top" src="img/blog-3.jpg" alt="">
+                        <div class="card-body bg-white p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <h5 class="m-0 ml-3 text-truncate">Elevating Minimalism:</h5>
+                            </div>
+                            <p>
+                                <mark style="color: white;">Designing Spaces with Less-is-More Approach</mark>
+                            </p>
+                            <p>Explore
+                                the philosophy behind minimalist
+                                design and how to achieve a sense of tranquility
+                                and elegance through simplicity.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container"
+            style="width: 95%; align-self: center; display: flex; flex-direction: column; background-color:#effdf5; border-radius: 10px; padding: 30px;">
+            <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.25s">FAQs about home in your city</h1>
+            <div class="accordion accordion-flush faq-container" id="accordionFlushExample"
+                style="background-color: #effdf5;">
+                <div class="accordion-item wow fadeInLeft" data-wow-delay="0.25s">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            1. What are the reasons for considering the services of an interior designer?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Think of an interior designer like a film director overseeing every
+                            intricate aspect from beginning to the final outcome. Much like guiding a film from
+                            pre-production to the final edit, their unique perspective profoundly shapes the end result.
+                            In a similar vein, interior designers are experts adept at comprehending your preferences
+                            and style to manifest your ideal living space. They aid you in acquiring tailor-made pieces
+                            that seamlessly align with your exquisite vision. Managing everything from raw materials to
+                            the final crafted products is their forte!
+                            <br>
+                            For a conversation with the leading interior designers in India, you have two options: pay a
+                            visit to a Livspace Experience Centre in your vicinity or complete the provided lead form.
+                            Additionally, you can peruse through our collection of interior design images for bedrooms,
+                            living rooms, and kitchens on our website, igniting your creative inspiration.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item wow fadeInRight" data-wow-delay="0.25s">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            2. What makes HomeSpan the ideal choice for your home interior design needs?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">HomeSpan is the ultimate collaborator that can craft your home
+                            interiors exactly to your preferences! Our team of design specialists tailors designs to
+                            match your requirements, attentively considering your concepts while offering valuable
+                            suggestions. At HomeSpan, we seamlessly integrate cutting-edge technology into our modular
+                            solutions, ensuring impeccable interiors and expediting the transformation of your dream
+                            home into reality. Schedule your consultation today with HomeSpan, India's Most Reliable
+                            Home Interiors Brand, and engage in a discussion with our designers about your project.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item wow fadeInLeft" data-wow-delay="0.25s">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            3. What are the services that are included in home interior design?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">HomeSpan is a one-stop shop for finding the top interior designers
+                            who can assist you in designing the home of your dreams. We are an interior design company
+                            that takes care of the design, delivery, and installation of interiors for various spaces.
+                            Moreover, when you book home interiors with us, We offer end-to-end services that include
+                            modular interiors, installation of false ceilings, civil work, painting, electrical work,
+                            and plumbing services, flooring and tiling. Whether you want to design your new space or
+                            renew the existing space, we take care of you.<br>
+                            Start your home interior journey with HomeSpan by browsing the latest kitchen, living room,
+                            and bedroom interior designs for inspiration.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item wow fadeInRight" data-wow-delay="0.25s">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            4. What is the price range for home interiors?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The price range for home interior design in India can vary widely
+                            based on several factors, including the size of the home, the scope of the project, the
+                            location, the materials used, and the level of customization desired. On average, for a
+                            standard 2BHK (two-bedroom, hall, and kitchen) apartment, the cost can range from ₹5 lakhs
+                            to ₹20 lakhs or more. Larger homes with more rooms and intricate designs can go beyond this
+                            range.
+                            <br>
+                            It's important to note that these figures are just estimates and can vary significantly
+                            based on your specific requirements and the interior design firm you choose. It's
+                            recommended to get personalized quotes from reputable interior designers or firms to get a
+                            more accurate understanding of the costs involved for your particular project.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item wow fadeInLeft" data-wow-delay="0.25s">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            5. What are the deadlines for the completion of my project?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">We uphold our commitment to a 45-day Move-in Guarantee, ensuring
+                            that all modular solutions are installed, allowing you to move into your new home within
+                            this designated timeframe. For comprehensive home interiors, we allocate 90 days to finalize
+                            your interior design project.
+                            <br>
+                            Nonetheless, the timeline for completion might differ across projects. Aspects like material
+                            availability, client input, design endorsements, site preparedness, and more, all contribute
+                            to the timeline's determination. It's important to bear in mind that certain terms and
+                            conditions could pertain to both the guarantee and the project's timelines.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item wow fadeInRight" data-wow-delay="0.25s">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                            6. What interior design styles are currently in vogue?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Several interior design styles were popular. However, please note
+                            that design trends can evolve quickly, so there might be new trends that have emerged since
+                            then. Here are some interior design styles that were popular around that time:
+                            <br>
+                            1. <span style="font-weight: 900; text-transform: uppercase;">Scandinavian </span>: This
+                            style emphasizes minimalism, functionality, and natural elements. It often features light
+                            colors, clean lines, and a focus on practical furniture and accessories.
+                            <br>
+                            2. <span style="font-weight: 900; text-transform: uppercase;">Industrial </span>: Industrial
+                            design incorporates elements of warehouses and factories.
+                            Exposed brick walls, metal accents, and a mix of raw materials like wood and steel are
+                            common in this style.
+                            <br>
+                            3. <span style="font-weight: 900; text-transform: uppercase;">Modern Farmhouse </span>: This
+                            style combines modern and rustic elements, featuring a cozy
+                            and inviting atmosphere. It often includes shiplap walls, vintage decor, and neutral color
+                            palettes.
+                            <br>
+                            4. <span style="font-weight: 900; text-transform: uppercase;">Mid-Century Modern </span>:
+                            Inspired by designs from the mid-20th century, this style
+                            features clean lines, organic shapes, and a mix of both traditional and futuristic elements.
+                            <br>
+                            5. <span style="font-weight: 900; text-transform: uppercase;">Bohemian </span>: Bohemian, or
+                            boho, design is characterized by its eclectic and
+                            free-spirited nature. It often includes vibrant colors, patterns, and a mix of global
+                            influences.
+                            <br>
+                            6. <span style="font-weight: 900; text-transform: uppercase;">Coastal </span>: Coastal
+                            design brings the relaxed vibe of the beach into the home with light
+                            and airy color palettes, natural textures, and nautical elements.
+                            <br>
+                            7. <span style="font-weight: 900; text-transform: uppercase;">Minimalist </span>: Minimalism
+                            focuses on simplicity and decluttering. It often includes
+                            neutral colors, simple furniture, and a "less is more" approach to decor.
+                            <br>
+                            8. <span style="font-weight: 900; text-transform: uppercase;">Art Deco </span>: This
+                            glamorous and luxurious style originated in the 1920s and features
+                            bold geometric patterns, rich colors, and a sense of opulence.
+                            <br>
+                            9. <span style="font-weight: 900; text-transform: uppercase;">Eclectic </span>: Eclectic
+                            design involves mixing various styles, time periods, and cultural
+                            influences. It's a way to showcase your personality and interests through decor.
+                            <br>
+                            10. <span style="font-weight: 900; text-transform: uppercase;">Transitional </span>: A blend
+                            of traditional and contemporary elements, transitional design
+                            offers a balance between classic and modern aesthetics, often incorporating neutral colors
+                            and clean lines.
+                            <br>
+                            11. <span style="font-weight: 900; text-transform: uppercase;">Japandi </span>: This is a
+                            fusion of Japanese and Scandinavian design, combining the
+                            minimalism of Scandinavian style with the warmth and nature-inspired aspects of Japanese
+                            design.
+                            <br>
+                            12. <span style="font-weight: 900; text-transform: uppercase;">Wabi-Sabi </span>: Rooted in
+                            Japanese philosophy, wabi-sabi embraces imperfections,
+                            simplicity, and the beauty of natural materials. It values authenticity and a sense of
+                            timelessness.
+                            <br>
+                            Please keep in mind that design trends can vary by region, and new styles may have emerged
+                            since my last update. It's a good idea to explore current interior design magazines,
+                            websites, and social media platforms to get the most up-to-date information on popular
+                            styles.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- FAQs start-->
+
+    <!-- Footer Start -->
+    <div class="divider-border mt-5"></div>
+    <div class="container-fluid bg-dark text-white-50 footer pt-5 wow fadeIn" data-wow-delay="0.25s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Company</h5>
+                    <a class="btn btn-link text-white-50" href="about.html">About Us</a>
+                    <a class="btn btn-link text-white-50" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link text-white-50" href="">Our Services</a>
+                    <a class="btn btn-link text-white-50" href="">Privacy Policy</a>
+                    <a class="btn btn-link text-white-50" href="">Terms & Condition</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Quick Links</h5>
+                    <a class="btn btn-link text-white-50" href="">Modular Kitchen</a>
+                    <a class="btn btn-link text-white-50" href="">Bedroom</a>
+                    <a class="btn btn-link text-white-50" href="">Bathroom</a>
+                    <a class="btn btn-link text-white-50" href="">Wardrobe</a>
+                    <a class="btn btn-link text-white-50" href="">False Ceiling</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Contact</h5>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Kantatoli Chowk, Near Mangal Tower, Ranchi,
+                        Jharkhand Pin-834001</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7739 555 366</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>homespan.india@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white mb-4">Newsletter</h5>
+                    <p>Summarize and share the most interesting and relevant articles, blog posts, or news stories from
+                        your industry.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">HomeSpan</a>, All Right Reserved.
+                        Designed By <a class="border-bottom" href="https://webdite.netlify.app/">MW</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
